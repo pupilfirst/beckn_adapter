@@ -29,9 +29,11 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", ">= 4.0.1"
 
-
 # Makes http fun again!
 gem "httparty", "~> 0.22.0"
+
+# Database-backed Active Job backend
+gem "solid_queue", "~> 0.3.1"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
