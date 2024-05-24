@@ -1,0 +1,36 @@
+common: &common
+  adapter: <%= ENV['DB_ADAPTER'] || 'postgresql' %>
+  host: <%= ENV['DB_HOST'] %>
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  reconnect: true
+
+development:
+  primary:
+    <<: *common
+    database: <%= ENV['DB_NAME'] %>
+  pupilfirst:
+    <<: *common
+    database: <%= ENV["PUPILFIRST_DB_NAME"] %>
+    migrations_paths: db/pupilfirst_migrate
+    database_tasks: false
+
+test:
+  primary:
+    <<: *common
+    database: <%= ENV['DB_NAME_TEST'] %>
+  pupilfirst:
+    <<: *common
+    database: <%= ENV['PUPILFIRST_DB_NAME_TEST'] %>
+    database_tasks: false
+
+production:
+  primary:
+    <<: *common
+    pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
+  pupilfirst:
+    migrations_paths: db/pupilfirst_migrate
+    adapter: postgresql
+    url: <%= ENV["PUPILFIRST_LMS_DB_URL"] %>
+    pool: <%= ENV.fetch('RAILS_MAX_THREADS') { ENV['DB_POOL'] || ENV['MAX_THREADS'] || 5 } %>
+    database_tasks: false

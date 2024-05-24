@@ -1,0 +1,9 @@
+DB_NAME=beckn_adapter_development
+DB_NAME_TEST=beckn_adapter_development_test
+DB_USER=postgres
+DB_PASSWORD=postgres
+# DB credentials for Pupilfirst LMS DB.
+# IMPORTANT: In development, the app assumes that DB_USER and DB_PASSWORD are the same for both DBs.
+PUPILFIRST_DB_NAME=pupilfirst
+PUPILFIRST_DB_NAME_TEST=pupilfirst_test
+PUPILFIRST_LMS_DB_URL=url_for_lms_db_in_production
