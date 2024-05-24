@@ -18,7 +18,7 @@ class BecknRespondService
   def execute(action, response)
     data = { context: build_context(action), **response }
 
-    response = send_post_request(@bpp_config['bpp_client_uri'], data)
+    response = send_post_request(end_point(action), data)
     handle_response(response)
   end
 
@@ -31,6 +31,7 @@ class BecknRespondService
 
   def build_context(action)
     context = @payload['context'].dup
+    context.delete('action')
     context.merge!(
       bpp_id: @bpp_config['bpp_id'],
       bpp_uri: @bpp_config['bpp_uri'],
