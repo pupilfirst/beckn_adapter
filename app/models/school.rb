@@ -8,4 +8,5 @@ class School < PupilfirstRecord
   has_many :target_groups, through: :levels
   has_many :targets, through: :target_groups
   has_many :timeline_events, through: :students
+  has_many :domains, dependent: :restrict_with_error
 end

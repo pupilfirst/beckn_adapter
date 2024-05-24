@@ -13,6 +13,7 @@ class Course < PupilfirstRecord
 
   scope :featured, -> { where(featured: true) }
   scope :live, -> { where(archived_at: nil) }
+  scope :public_signup, -> { live.where(public_signup: true) }
   scope :archived, -> { where.not(archived_at: nil) }
   scope :access_active,
     -> {
