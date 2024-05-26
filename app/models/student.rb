@@ -1,6 +1,4 @@
 class Student < PupilfirstRecord
-  acts_as_taggable
-
   has_one :school, through: :user
   belongs_to :cohort
   belongs_to :level, optional: true

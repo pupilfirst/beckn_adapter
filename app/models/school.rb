@@ -9,13 +9,14 @@ class School < PupilfirstRecord
   has_many :targets, through: :target_groups
   has_many :timeline_events, through: :students
   has_many :domains, dependent: :restrict_with_error
+  has_many :school_strings, dependent: :restrict_with_error
 
-
+  scope :live, -> { where(id: ENV["BECKN_ENABLED_SCHOOL_IDS"].split(",")) }
 
   def beckn_descriptor
     {
       name: name,
-      short_desc: about.to_s || "No description",
+      short_desc: SchoolString::Description.for(self) || "Set a short description for your school in School Strings",
       images: []
     }
   end
@@ -27,7 +28,7 @@ class School < PupilfirstRecord
           name: name
         },
         contact: {
-          email: 'todo@example.com'
+          email: SchoolString::EmailAddress.for(self)
         }
       }
     }
@@ -42,9 +43,8 @@ class School < PupilfirstRecord
   def beckn_billing
     {
       name: name,
-      phone: 'todo',
-      email: 'todo',
-      address: 'todo'
+      email: SchoolString::EmailAddress.for(self),
+      address: SchoolString::Address.for(self)
     }
   end
 end

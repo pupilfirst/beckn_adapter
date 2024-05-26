@@ -11,3 +11,6 @@ PUPILFIRST_LMS_DB_URL=url_for_lms_db_in_production
 
 # Link to Beckn Protocol Server Client
 BPP_CLIENT_URI=http://localhost:6001
+
+# is a comma separated list of school IDs that are enabled to use the Beckn Adapter.
+BECKN_ENABLED_SCHOOL_IDS=1,2,3

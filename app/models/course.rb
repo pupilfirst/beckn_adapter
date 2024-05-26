@@ -23,10 +23,17 @@ class Course < PupilfirstRecord
     }
   scope :ended, -> { live.where.not(id: access_active) }
   scope :active, -> { live.access_active }
+  belongs_to :default_cohort, class_name: "Cohort", optional: true
 
   PROGRESSION_BEHAVIOR_LIMITED = -"Limited"
   PROGRESSION_BEHAVIOR_UNLIMITED = -"Unlimited"
   PROGRESSION_BEHAVIOR_STRICT = -"Strict"
+
+  def beckn_cohort
+    return default_cohort if default_cohort.present?
+
+    cohorts.active.first
+  end
 
   def beckn_item
     {
