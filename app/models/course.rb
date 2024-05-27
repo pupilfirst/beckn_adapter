@@ -50,7 +50,7 @@ class Course < PupilfirstRecord
         "images": [],
         "media": [
           {
-            "url": "#{school.domains.primary.fqdn}/courses/#{id}"
+            "url": "#{school.primary_url}/courses/#{id}"
           }
         ]
       },
@@ -90,6 +90,23 @@ class Course < PupilfirstRecord
     }
   end
 
+  def beckn_item_with_stops(student)
+    data = beckn_item
+    user = student.pupilfirst_user
+    user.regenerate_login_token
+    data[:stops] = [
+      {
+        id: id.to_s,
+        instructions: {
+          name: "View Course",
+          long_desc: "View course details",
+          media: [ { url: course_url(user.original_login_token) } ]
+        }
+      }
+    ]
+    data
+  end
+
   def beckn_quote
     {
       price: {
@@ -97,5 +114,9 @@ class Course < PupilfirstRecord
         value: "0"
       }
     }
+  end
+
+  def course_url(token)
+    "#{school.primary_url}/users/token?referrer=%2Fcourses%2F#{id}%2Fcurriculum&shared_device=false&token=#{token}"
   end
 end

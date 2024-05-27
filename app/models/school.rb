@@ -47,4 +47,8 @@ class School < PupilfirstRecord
       address: SchoolString::Address.for(self)
     }
   end
+
+  def primary_url
+    "https://#{domains.primary.fqdn}"
+  end
 end

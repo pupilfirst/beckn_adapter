@@ -20,7 +20,7 @@ module Api
               id: school.id.to_s,
               descriptor: school.beckn_descriptor,
               categories: [],
-              items: [course.beckn_item],
+              items: [course.beckn_item_with_stops(student)],
               fulfillments: [school.beckn_fullfillment_with_customer(customer)],
               quote: course.beckn_quote,
               billing: school.beckn_billing,
