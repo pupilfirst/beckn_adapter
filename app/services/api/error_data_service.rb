@@ -3,11 +3,6 @@ module Api
   class ErrorDataService
     def data(code, message)
       {
-        message: {
-          ack: {
-            status: "NACK"
-          }
-        },
         error: {
           type: "DOMAIN-ERROR",
           code: code,
