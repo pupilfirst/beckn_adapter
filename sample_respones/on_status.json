@@ -1,0 +1,202 @@
+{
+  "context": {
+    "ttl": "PT10M",
+    "action": "status",
+    "timestamp": "2024-06-04T13:39:22.384Z",
+    "message_id": "85b2ec38-954c-4e61-b921-b3066afa193e",
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "domain": "dsep-belem:courses",
+    "version": "1.1.0",
+    "bap_id": "ps-bap-network.becknprotocol.io",
+    "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+    "location": {
+      "city": {
+        "name": "Bangalore",
+        "code": "std:080"
+      },
+      "country": {
+        "name": "India",
+        "code": "IND"
+      }
+    },
+    "bpp_id": "bpp-ps-network-pf.becknprotocol.io",
+    "bpp_uri": "https://bpp-ps-network-pf.becknprotocol.io"
+  },
+  "responses": [
+    {
+      "context": {
+        "domain": "dsep-belem:courses",
+        "action": "on_status",
+        "version": "1.1.0",
+        "bpp_id": "bpp-ps-network-pf.becknprotocol.io",
+        "bpp_uri": "https://bpp-ps-network-pf.becknprotocol.io",
+        "country": "IND",
+        "city": "std:080",
+        "location": {
+          "city": {
+            "name": "Bangalore",
+            "code": "std:080"
+          },
+          "country": {
+            "name": "India",
+            "code": "IND"
+          }
+        },
+        "bap_id": "ps-bap-network.becknprotocol.io",
+        "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+        "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+        "message_id": "85b2ec38-954c-4e61-b921-b3066afa193e",
+        "ttl": "PT10M",
+        "timestamp": "2024-06-04T13:39:26.679Z"
+      },
+      "message": {
+        "order": {
+          "id": "Jw8HqYOr48RXIbU5AUY1c/rGPKgN8WGuFOxH5e9VcriU8mPMH1wOrw4uFyxuXWQAzdIH8VFbyg8S+NLMMHJ1AS4FAtyN4x00VZa/wLewukLTumyA9BzGR6fcHs6uV4lszwNBF7Zca5oTGomGmIdhuZmlnP/6dzsGQF5e7S7L--C8rXdvNhSIXs/EMR--Ctv5LfqWLwS0haRXBXgfrw==",
+          "provider": {
+            "id": "3",
+            "descriptor": {
+              "name": "Pupilfirst Staging",
+              "short_desc": "Sequi ea delectus nisi.",
+              "long_desc": "A school created to playround with the features of pupilfirst",
+              "images": [
+                {
+                  "url": "https://d8y8xk24kvesy.cloudfront.net/p0le0jtnbo843x0clwpmz7ma4uli?response-content-disposition=inline%3B+filename%3D%22logo_carpe_diem_on_light_bg.png%22%3B&response-content-type=image%2Fpng&Expires=1717511965&Signature=FQYUIG9izMEyLeJnci2Ih0BZLL86Ag6rtxSfmTbfKw~OXDdDL2tOk75OKeUln5P4eTAhljd0lYtOQLk5kQa4t2UY7niuKtwtZhVBNlNKsQN2zYD-zgSbEL2LqAMQlhIVh8SNIQ~xqGXl5faWqm2IRO18MKIjbQSsI3xlU0FM9DrqQRgklAZo43O6CaMo8jaMCexudj6zyUMD9W4NQm8LKLynKcE~uJIMfuEGZTtxk9itQk-RNSLgg4~RvqwSWzaii3NTWfVboU-9NbEEWKg6FJTZxQ5VyBDldUe4o80avnRCjSd~ZO8WebO0m0cGGO8ay1oEOG1MnqzsaKKBMfUU~w__&Key-Pair-Id=K1C168DPKINNKA",
+                  "size_type": "lg"
+                },
+                {
+                  "url": "https://d8y8xk24kvesy.cloudfront.net/xb7uwlsytgy4k7dn8ojt34pl9sfy?response-content-disposition=inline%3B+filename%3D%22icon_pupilfirst.png%22%3B&response-content-type=image%2Fpng&Expires=1717511965&Signature=X1hz3zN9rNlU8nfRdhuHIsariSYHz9b-LrAJ8Xv8QCSXVVD84nJJb-h3Ra9p40mfjqHxcAVHJaA3L35P5PldB76nIPsqJTEGL9or9V~K7UmncEwclydZv8xLSP7VpAzetws3lo2busp-dBVdDvRZuNs~p-YgodV71g2PkhhLDkkW1e0Z3BPDgXdK0s339qcNqnfHdNo~V9ph57J-XO2GSc5lZS5zGaoDpmAewBsZoEqUYc7~Vf2rzcAEyslhEPeJmNndrOwgUxdC0fOkDQ~VOKwVPuaBL~WAcIC4dGMxVYAzfzA-Ry7DNS5evjhubXDYk00ICTb9~gKbMwRRyw-Q~Q__&Key-Pair-Id=K1C168DPKINNKA",
+                  "size_type": "sm"
+                }
+              ]
+            },
+            "categories": []
+          },
+          "items": [
+            {
+              "id": "528",
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "descriptor": {
+                "name": "Beckn 101",
+                "short_desc": "Unlock the potential of open and interoperable networks with Beckn 101",
+                "long_desc": "Beckn 101 is a meticulously crafted course that delves into the intricacies of the Beckn protocol. Throughout this course, participants will gain a comprehensive understanding of the principles and components that make up Beckn, enabling them to develop and integrate Beckn-based solutions effectively.\n\nThe course begins with an introduction to the Beckn protocol, highlighting its significance in creating open and interoperable networks. Participants will learn about the evolution of Beckn, its ecosystem, and the key components involved in building Beckn applications. The curriculum covers the fundamental aspects of Beckn architecture, APIs, and data models, providing a solid foundation for further exploration.\n\nIn the technical implementation modules, participants will get hands-on experience setting up development environments, building applications, and integrating Beckn APIs. Advanced topics such as scaling applications, customizing solutions, and troubleshooting common issues are also covered to ensure participants are well-equipped to handle real-world challenges.\n\nThe course includes practical projects and case studies, offering participants the opportunity to apply their knowledge in real-world scenarios. These projects, combined with assessments and certification, ensure that participants not only understand the theoretical aspects of Beckn but can also implement and deploy Beckn-based solutions effectively.\n\nBeckn 10 is designed to cater to both beginners and experienced professionals. Beginners will appreciate the step-by-step guidance and foundational knowledge, while experienced professionals will benefit from the advanced topics and practical insights. The course is delivered through a flexible online platform, allowing participants to learn at their own pace while having access to live Q&A sessions for additional support.\n\nWith a strong emphasis on practical skills and real-world applications, Beckn 101 prepares participants to excel in the field of interoperable networks, making them valuable assets to their organizations and the broader tech community.",
+                "additional_desc": {
+                  "url": "https://staging.pupilfirst.com/courses/528",
+                  "content_type": "text/html"
+                },
+                "images": []
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Pupilfirst Staging",
+                  "short_desc": "Sequi ea delectus nisi.",
+                  "long_desc": "A school created to playround with the features of pupilfirst",
+                  "images": [
+                    {
+                      "url": "https://d8y8xk24kvesy.cloudfront.net/p0le0jtnbo843x0clwpmz7ma4uli?response-content-disposition=inline%3B+filename%3D%22logo_carpe_diem_on_light_bg.png%22%3B&response-content-type=image%2Fpng&Expires=1717511965&Signature=FQYUIG9izMEyLeJnci2Ih0BZLL86Ag6rtxSfmTbfKw~OXDdDL2tOk75OKeUln5P4eTAhljd0lYtOQLk5kQa4t2UY7niuKtwtZhVBNlNKsQN2zYD-zgSbEL2LqAMQlhIVh8SNIQ~xqGXl5faWqm2IRO18MKIjbQSsI3xlU0FM9DrqQRgklAZo43O6CaMo8jaMCexudj6zyUMD9W4NQm8LKLynKcE~uJIMfuEGZTtxk9itQk-RNSLgg4~RvqwSWzaii3NTWfVboU-9NbEEWKg6FJTZxQ5VyBDldUe4o80avnRCjSd~ZO8WebO0m0cGGO8ay1oEOG1MnqzsaKKBMfUU~w__&Key-Pair-Id=K1C168DPKINNKA",
+                      "size_type": "lg"
+                    },
+                    {
+                      "url": "https://d8y8xk24kvesy.cloudfront.net/xb7uwlsytgy4k7dn8ojt34pl9sfy?response-content-disposition=inline%3B+filename%3D%22icon_pupilfirst.png%22%3B&response-content-type=image%2Fpng&Expires=1717511965&Signature=X1hz3zN9rNlU8nfRdhuHIsariSYHz9b-LrAJ8Xv8QCSXVVD84nJJb-h3Ra9p40mfjqHxcAVHJaA3L35P5PldB76nIPsqJTEGL9or9V~K7UmncEwclydZv8xLSP7VpAzetws3lo2busp-dBVdDvRZuNs~p-YgodV71g2PkhhLDkkW1e0Z3BPDgXdK0s339qcNqnfHdNo~V9ph57J-XO2GSc5lZS5zGaoDpmAewBsZoEqUYc7~Vf2rzcAEyslhEPeJmNndrOwgUxdC0fOkDQ~VOKwVPuaBL~WAcIC4dGMxVYAzfzA-Ry7DNS5evjhubXDYk00ICTb9~gKbMwRRyw-Q~Q__&Key-Pair-Id=K1C168DPKINNKA",
+                      "size_type": "sm"
+                    }
+                  ]
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "category_ids": [],
+              "rating": "5",
+              "rateable": true,
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Content metadata"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "level",
+                        "name": "Level"
+                      },
+                      "value": "Beginner"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "comprehensive-coverage",
+                        "name": "Comprehensive Coverage"
+                      },
+                      "value": "Learn everything from the basics of Beckn to advanced implementation techniques. "
+                    },
+                    {
+                      "descriptor": {
+                        "code": "expert-instruction",
+                        "name": "Expert Instruction"
+                      },
+                      "value": "Benefit from the knowledge and guidance of experienced instructors"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "certification",
+                        "name": "Certification"
+                      },
+                      "value": "Earn a Certificate of Completion to showcase your expertise"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "agent": {
+                "person": {
+                  "name": "Pupilfirst Staging"
+                },
+                "contact": {
+                  "email": "alonso_ryan@ernser.test"
+                }
+              },
+              "customer": {
+                "person": {
+                  "name": "Bodhish Karingattil"
+                },
+                "contact": {
+                  "email": "bodhish+01@gmail.com"
+                }
+              },
+              "state": {
+                "descriptor": {
+                  "code": "IN_PROGRESS",
+                  "name": "In Progress"
+                },
+                "updated_at": "2024-06-04T13:38:17.051Z"
+              },
+              "tracking": false
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "0"
+            }
+          },
+          "billing": {
+            "name": "Pupilfirst Staging",
+            "email": "alonso_ryan@ernser.test",
+            "address": "Suite 176 43128 Chas Ville, Wymanbury, AR 92983-8747"
+          },
+          "payments": [],
+          "type": "DEFAULT"
+        }
+      }
+    }
+  ]
+}

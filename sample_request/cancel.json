@@ -1,0 +1,25 @@
+{
+  "context": {
+    "domain": "{{onest_learning_experiences}}",
+    "action": "cancel",
+    "location": {
+      "country": {
+        "name": "India",
+        "code": "IND"
+      }
+    },
+    "version": "{{core_version}}",
+    "bap_id": "{{bap_id}}",
+    "bap_uri": "{{bap_uri}}",
+    "bpp_id": "{{bpp_id}}",
+    "bpp_uri": "{{bpp_uri}}",
+    "timestamp": "2022-12-15T15:38:16.226Z",
+    "message_id": "{{$randomUUID}}",
+    "ttl": "PT10M",
+    "transaction_id": "bdb5ba09-2241-4f00-b434-73466cd06228"
+  },
+  "message": {
+    "order_id": "Jw8HqYOr48RXIbU5AUY1c/rGPKgN8WGuFOxH5e9VcriU8mPMH1wOrw4uFyxuXWQAzdIH8VFbyg8S+NLMMHJ1AS4FAtyN4x00VZa/wLewukLTumyA9BzGR6fcHs6uV4lszwNBF7Zca5oTGomGmIdhuZmlnP/6dzsGQF5e7S7L--C8rXdvNhSIXs/EMR--Ctv5LfqWLwS0haRXBXgfrw==",
+    "cancellation_reason_id": "12"
+  }
+}
