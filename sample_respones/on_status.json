@@ -2,8 +2,8 @@
   "context": {
     "ttl": "PT10M",
     "action": "status",
-    "timestamp": "2024-06-04T13:39:22.384Z",
-    "message_id": "85b2ec38-954c-4e61-b921-b3066afa193e",
+    "timestamp": "2024-06-08T15:09:58.341Z",
+    "message_id": "58f71291-5fe1-484c-a29b-25753fa1d7a6",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
     "domain": "dsep-belem:courses",
     "version": "1.1.0",
@@ -45,13 +45,13 @@
         "bap_id": "ps-bap-network.becknprotocol.io",
         "bap_uri": "https://ps-bap-network.becknprotocol.io/",
         "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
-        "message_id": "85b2ec38-954c-4e61-b921-b3066afa193e",
+        "message_id": "58f71291-5fe1-484c-a29b-25753fa1d7a6",
         "ttl": "PT10M",
-        "timestamp": "2024-06-04T13:39:26.679Z"
+        "timestamp": "2024-06-08T15:10:01.898Z"
       },
       "message": {
         "order": {
-          "id": "Jw8HqYOr48RXIbU5AUY1c/rGPKgN8WGuFOxH5e9VcriU8mPMH1wOrw4uFyxuXWQAzdIH8VFbyg8S+NLMMHJ1AS4FAtyN4x00VZa/wLewukLTumyA9BzGR6fcHs6uV4lszwNBF7Zca5oTGomGmIdhuZmlnP/6dzsGQF5e7S7L--C8rXdvNhSIXs/EMR--Ctv5LfqWLwS0haRXBXgfrw==",
+          "id": "wZEkz13qANIsHhA3LLgaIM7fuD7vA3THyMSyukddhB25toyLGjIvV3Us8sFuBVHJAXbCnCg5hMCLBZfL6rVhqhgyskIXPAuXSHHgwcMSS5qE9pC1dFk61Z6hI14xIvSgzXFo4Vp8z0/VgcZ8tk0rBJctcmdf9h5CSJ6XDDbs--shJYTUXTIANjBkMU--greGuJgTd6g6yljSm7EhQA==",
           "provider": {
             "id": "3",
             "descriptor": {
@@ -60,11 +60,11 @@
               "long_desc": "A school created to playround with the features of pupilfirst",
               "images": [
                 {
-                  "url": "https://d8y8xk24kvesy.cloudfront.net/p0le0jtnbo843x0clwpmz7ma4uli?response-content-disposition=inline%3B+filename%3D%22logo_carpe_diem_on_light_bg.png%22%3B&response-content-type=image%2Fpng&Expires=1717511965&Signature=FQYUIG9izMEyLeJnci2Ih0BZLL86Ag6rtxSfmTbfKw~OXDdDL2tOk75OKeUln5P4eTAhljd0lYtOQLk5kQa4t2UY7niuKtwtZhVBNlNKsQN2zYD-zgSbEL2LqAMQlhIVh8SNIQ~xqGXl5faWqm2IRO18MKIjbQSsI3xlU0FM9DrqQRgklAZo43O6CaMo8jaMCexudj6zyUMD9W4NQm8LKLynKcE~uJIMfuEGZTtxk9itQk-RNSLgg4~RvqwSWzaii3NTWfVboU-9NbEEWKg6FJTZxQ5VyBDldUe4o80avnRCjSd~ZO8WebO0m0cGGO8ay1oEOG1MnqzsaKKBMfUU~w__&Key-Pair-Id=K1C168DPKINNKA",
+                  "url": "https://d8y8xk24kvesy.cloudfront.net/p0le0jtnbo843x0clwpmz7ma4uli?response-content-disposition=inline%3B+filename%3D%22logo_carpe_diem_on_light_bg.png%22%3B&response-content-type=image%2Fpng&Expires=1717863000&Signature=eN3huP78U44v0-qU97sbmLhNYAgvgGNm6jKHRxIYb~6nrTxc-zmYo50d9UgFyGVacV7vK97VfO0~kfNwngiS8NyTSsaXuzvm0wldwUVKnFxwLUhR98pc85QZK5t1hRSZjZ8dWTLvz1i~mSGttYbpQpuyssE1rCUPe-KEPPybWKWwTu5jvMua9H~TWfKWUU2jvpAWybYidnX7nJnaqaAv1iWe4Jag0DcfoL-z9A1V7v-SszJNyG3kgoKtPEVJ6Nsk3JxE-lx7KW~GFIWcpBncL1SMqQrUHw1vH3OhMx-CfSR255P65Xkue7yasi7WefW-vSV8jPpoCK4Ym8r83aW-Fw__&Key-Pair-Id=K1C168DPKINNKA",
                   "size_type": "lg"
                 },
                 {
-                  "url": "https://d8y8xk24kvesy.cloudfront.net/xb7uwlsytgy4k7dn8ojt34pl9sfy?response-content-disposition=inline%3B+filename%3D%22icon_pupilfirst.png%22%3B&response-content-type=image%2Fpng&Expires=1717511965&Signature=X1hz3zN9rNlU8nfRdhuHIsariSYHz9b-LrAJ8Xv8QCSXVVD84nJJb-h3Ra9p40mfjqHxcAVHJaA3L35P5PldB76nIPsqJTEGL9or9V~K7UmncEwclydZv8xLSP7VpAzetws3lo2busp-dBVdDvRZuNs~p-YgodV71g2PkhhLDkkW1e0Z3BPDgXdK0s339qcNqnfHdNo~V9ph57J-XO2GSc5lZS5zGaoDpmAewBsZoEqUYc7~Vf2rzcAEyslhEPeJmNndrOwgUxdC0fOkDQ~VOKwVPuaBL~WAcIC4dGMxVYAzfzA-Ry7DNS5evjhubXDYk00ICTb9~gKbMwRRyw-Q~Q__&Key-Pair-Id=K1C168DPKINNKA",
+                  "url": "https://d8y8xk24kvesy.cloudfront.net/xb7uwlsytgy4k7dn8ojt34pl9sfy?response-content-disposition=inline%3B+filename%3D%22icon_pupilfirst.png%22%3B&response-content-type=image%2Fpng&Expires=1717863000&Signature=duBlpvBhMeHTQYipW7abZhfz2mR7esBacHA4ueRe3d8hPkRNIMQ6HvX5GX4Ya0I-0AatW74WIRaLeZhkaLXVgyg9TbX9MIKH9nGniGd83T4pMtTuUxc0ZtljY4ijDzNISWxLKUlZ7bkIwuPUNuXQSD3cTRMG3zE5STRaKLTQW754sHTDvDeHQIbKDhLpOP-HwuepnVnutRKD1IJI2~p8De3CEbSIxkQAhi0hyVnK1J6ndMjPkHQd~o3S8u0ZK10SqFWwzODGXa8Hicrce3VkFPK53g1hgP3IbfocZn0DYwkdlxpWKFWdsSWyDHk4iMYXKXqPCf4jM1Gi9p4~CJ2ebA__&Key-Pair-Id=K1C168DPKINNKA",
                   "size_type": "sm"
                 }
               ]
@@ -96,11 +96,11 @@
                   "long_desc": "A school created to playround with the features of pupilfirst",
                   "images": [
                     {
-                      "url": "https://d8y8xk24kvesy.cloudfront.net/p0le0jtnbo843x0clwpmz7ma4uli?response-content-disposition=inline%3B+filename%3D%22logo_carpe_diem_on_light_bg.png%22%3B&response-content-type=image%2Fpng&Expires=1717511965&Signature=FQYUIG9izMEyLeJnci2Ih0BZLL86Ag6rtxSfmTbfKw~OXDdDL2tOk75OKeUln5P4eTAhljd0lYtOQLk5kQa4t2UY7niuKtwtZhVBNlNKsQN2zYD-zgSbEL2LqAMQlhIVh8SNIQ~xqGXl5faWqm2IRO18MKIjbQSsI3xlU0FM9DrqQRgklAZo43O6CaMo8jaMCexudj6zyUMD9W4NQm8LKLynKcE~uJIMfuEGZTtxk9itQk-RNSLgg4~RvqwSWzaii3NTWfVboU-9NbEEWKg6FJTZxQ5VyBDldUe4o80avnRCjSd~ZO8WebO0m0cGGO8ay1oEOG1MnqzsaKKBMfUU~w__&Key-Pair-Id=K1C168DPKINNKA",
+                      "url": "https://d8y8xk24kvesy.cloudfront.net/p0le0jtnbo843x0clwpmz7ma4uli?response-content-disposition=inline%3B+filename%3D%22logo_carpe_diem_on_light_bg.png%22%3B&response-content-type=image%2Fpng&Expires=1717863000&Signature=eN3huP78U44v0-qU97sbmLhNYAgvgGNm6jKHRxIYb~6nrTxc-zmYo50d9UgFyGVacV7vK97VfO0~kfNwngiS8NyTSsaXuzvm0wldwUVKnFxwLUhR98pc85QZK5t1hRSZjZ8dWTLvz1i~mSGttYbpQpuyssE1rCUPe-KEPPybWKWwTu5jvMua9H~TWfKWUU2jvpAWybYidnX7nJnaqaAv1iWe4Jag0DcfoL-z9A1V7v-SszJNyG3kgoKtPEVJ6Nsk3JxE-lx7KW~GFIWcpBncL1SMqQrUHw1vH3OhMx-CfSR255P65Xkue7yasi7WefW-vSV8jPpoCK4Ym8r83aW-Fw__&Key-Pair-Id=K1C168DPKINNKA",
                       "size_type": "lg"
                     },
                     {
-                      "url": "https://d8y8xk24kvesy.cloudfront.net/xb7uwlsytgy4k7dn8ojt34pl9sfy?response-content-disposition=inline%3B+filename%3D%22icon_pupilfirst.png%22%3B&response-content-type=image%2Fpng&Expires=1717511965&Signature=X1hz3zN9rNlU8nfRdhuHIsariSYHz9b-LrAJ8Xv8QCSXVVD84nJJb-h3Ra9p40mfjqHxcAVHJaA3L35P5PldB76nIPsqJTEGL9or9V~K7UmncEwclydZv8xLSP7VpAzetws3lo2busp-dBVdDvRZuNs~p-YgodV71g2PkhhLDkkW1e0Z3BPDgXdK0s339qcNqnfHdNo~V9ph57J-XO2GSc5lZS5zGaoDpmAewBsZoEqUYc7~Vf2rzcAEyslhEPeJmNndrOwgUxdC0fOkDQ~VOKwVPuaBL~WAcIC4dGMxVYAzfzA-Ry7DNS5evjhubXDYk00ICTb9~gKbMwRRyw-Q~Q__&Key-Pair-Id=K1C168DPKINNKA",
+                      "url": "https://d8y8xk24kvesy.cloudfront.net/xb7uwlsytgy4k7dn8ojt34pl9sfy?response-content-disposition=inline%3B+filename%3D%22icon_pupilfirst.png%22%3B&response-content-type=image%2Fpng&Expires=1717863000&Signature=duBlpvBhMeHTQYipW7abZhfz2mR7esBacHA4ueRe3d8hPkRNIMQ6HvX5GX4Ya0I-0AatW74WIRaLeZhkaLXVgyg9TbX9MIKH9nGniGd83T4pMtTuUxc0ZtljY4ijDzNISWxLKUlZ7bkIwuPUNuXQSD3cTRMG3zE5STRaKLTQW754sHTDvDeHQIbKDhLpOP-HwuepnVnutRKD1IJI2~p8De3CEbSIxkQAhi0hyVnK1J6ndMjPkHQd~o3S8u0ZK10SqFWwzODGXa8Hicrce3VkFPK53g1hgP3IbfocZn0DYwkdlxpWKFWdsSWyDHk4iMYXKXqPCf4jM1Gi9p4~CJ2ebA__&Key-Pair-Id=K1C168DPKINNKA",
                       "size_type": "sm"
                     }
                   ]
@@ -111,7 +111,7 @@
                 "value": "0"
               },
               "category_ids": [],
-              "rating": "5",
+              "rating": "4.0",
               "rateable": true,
               "tags": [
                 {
@@ -169,16 +169,34 @@
                   "name": "Bodhish Karingattil"
                 },
                 "contact": {
-                  "email": "bodhish+01@gmail.com"
+                  "email": "bodhish+02@gmail.com"
                 }
               },
               "state": {
                 "descriptor": {
-                  "code": "IN_PROGRESS",
-                  "name": "In Progress"
+                  "code": "COMPLETED",
+                  "name": "Completed"
                 },
-                "updated_at": "2024-06-04T13:38:17.051Z"
+                "updated_at": "2024-06-08T15:08:52.582Z"
               },
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "course-completion-details",
+                    "name": "Content Completion Details"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "course-certificate",
+                        "name": "Course certificate"
+                      },
+                      "value": "https://staging.pupilfirst.com/c/240608-BFM883"
+                    }
+                  ],
+                  "display": true
+                }
+              ],
               "tracking": false
             }
           ],
